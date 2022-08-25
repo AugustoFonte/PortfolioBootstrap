@@ -1,0 +1,61 @@
+body {
+  background-color: $camel-color;
+}
+nav {
+  background-color: $navy-color;
+  display:flex;
+}
+a {
+  text-decoration: none;
+}
+.menu {
+  color: $camel-color;
+}
+.menu:hover {
+  color: $camel-color;
+}
+h1,hr {
+  color: $blue-color;
+}
+h2, h3, h4, h5, h6, p {
+  margin: auto;
+  color: $black-color;
+}
+.cabecalho, .about, .resumo, .portfolio, .contacto {
+  margin-top: 290px;
+}
+.contacto {
+  margin-bottom: 200px;
+}
+.icones {
+  color: $blue-color;
+}
+.foto {
+  @include border-radius;
+  max-width:350px;
+  text-align: center;
+}
+.box {
+  @include border-projectos;
+  display:flex;
+  max-width: 600px;
+}
+.projectos {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 20px;
+  
+}
+.titulo{
+  color: $blue-color;
+  padding-bottom: 50px;
+}
+.email{
+  color: $navy-color;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.display {
+  display:none;
+}

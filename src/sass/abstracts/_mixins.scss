@@ -1,0 +1,11 @@
+@mixin border-radius {
+  border-radius: 50px;
+  box-shadow:  10px 10px 20px #d9d9d9,
+             -10px -10px 20px #ffffff;
+}
+@mixin border-projectos{ 
+  border-radius: 20px;
+  box-shadow:  10px 10px 20px #d9d9d9,
+             -10px -10px 20px #ffffff;
+  
+}
